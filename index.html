@@ -4,7 +4,13 @@
   <link href="connect4.css" rel="stylesheet">
 </head>
 <body>
-
+  <form action="newGame()">
+  <label for="player1">Player1</label>
+  <input type="text" player1="playerOne" value="" placeholder="Color here">
+  <label for="player2">Player2</label>
+  <input type="text" player2="playerTwo" value="" placeholder="Color here">
+  <button class="button" onclick="newGame()">click to start</button>
+  </form>
 <div id="game">
   <table id="board"></table>
 </div>
